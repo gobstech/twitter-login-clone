@@ -1,0 +1,206 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: "Chirp";
+    src: url(fonte-twitter/chirp_medium.otf);
+}
+
+@font-face {
+    font-family: "Chirp Bold";
+    src: url(fonte-twitter/chirp_bold.otf);
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 600px auto;
+    height: 700px;
+    justify-content: center;
+}
+
+.twitter-icon { 
+    background-image: url(imagens/background.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+}
+
+.twitter-icon > i {
+    font-size: 320px;
+    margin: 28% 0px;
+    color:white;
+}
+
+.twitter-form > .azul {
+    padding: 30px;
+    color: #1A8CD8;
+    font-size: 40px;
+}
+
+.twitter-form > h1 {
+    margin: 30px;
+    font-size: 70px;
+    font-family: "Chirp Bold";
+}
+
+.twitter-form > h3 {
+    margin: 30px;
+    font-size: 40px;
+    font-family: "Chirp Bold";
+}
+
+.form > h5 {
+    margin: 20px 30px;
+    font-size: 20px;
+    font-family: "Chirp Bold";
+}
+
+.google {
+    font-family: "Roboto";
+}
+
+.btn-sign-up {
+    margin: 10px 30px;
+    padding: 10px 40px;
+    border: 2px solid lightgrey;
+    background-color: white;
+    border-radius: 20px;
+    font-family: "Chirp";
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-sign-tel {
+    margin: 10px 30px;
+    padding: 10px 40px;
+    border: 2px solid #1A8CD8;
+    background-color: #1A8CD8;
+    color: white;
+    border-radius: 20px;
+    font-family: "Chirp";
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-entrar {
+    margin: 10px 30px;
+    padding: 10px 140px;
+    border: 2px solid lightgrey;
+    background-color: white;
+    border-radius: 20px;
+    font-family: "Chirp";
+    cursor: pointer;
+    font-size: 16px;
+    color: #1A8CD8;
+}
+
+.pp {
+    margin: 10px 30px;
+    font-size: 11px;   
+}
+
+.blue-link {
+    color: #1A8CD8;
+    cursor: pointer;
+}
+
+footer {
+    padding: 20px 0px;
+    font-size: 12.5px;
+    font-family: "Chirp";
+    text-align: center;
+}
+
+footer span > a, footer span {
+    color: grey;
+    text-decoration: none;
+    margin: 0px 5px;
+}
+
+footer span > a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1023px) {
+    .grid {
+        display: grid;
+        grid-template-columns: auto;
+        height: 100%;
+    }
+    
+    .twitter-form > h1 {
+        margin: 10px;
+        font-size: 50px;
+        font-family: "Chirp Bold";
+    }
+    
+    .twitter-form > h3 {
+        margin: 10px;
+        font-size: 30px;
+        font-family: "Chirp Bold";
+    }
+    
+    .form > h5 {
+        margin: 10px;
+        font-size: 20px;
+        font-family: "Chirp Bold";
+    }
+
+    .twitter-icon > i {
+        font-size: 160px;
+        margin: 28% 0px;
+        color:white;
+    }
+
+    .btn-sign-up {
+        margin: 10px;
+        padding: 10px 40px;
+        border: 2px solid lightgrey;
+        background-color: white;
+        border-radius: 20px;
+        font-family: "Chirp";
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    .btn-sign-tel {
+        margin: 10px;
+        padding: 10px 40px;
+        border: 2px solid #1A8CD8;
+        background-color: #1A8CD8;
+        color: white;
+        border-radius: 20px;
+        font-family: "Chirp";
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    .btn-entrar {
+        margin: 10px;
+        padding: 10px 70px;
+        border: 2px solid lightgrey;
+        background-color: white;
+        border-radius: 20px;
+        font-family: "Chirp";
+        cursor: pointer;
+        font-size: 16px;
+        color: #1A8CD8;
+    }
+}
+
+@media screen and (max-width: 1365px) {
+    footer {
+        display: none;
+    }
+}
